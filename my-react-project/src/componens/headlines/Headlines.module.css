@@ -1,0 +1,49 @@
+.headlines {
+    display: flex;
+    align-items: center;
+}
+.thumbnail {
+    border-radius: 12px;
+}
+.info {
+    margin-left: 24px;
+}
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 3px 0 10px;
+}
+.rating {
+    display: grid;
+    grid-template-columns: 72px 72px;
+    margin-bottom: 14px;
+}
+.like,
+.dislike,
+.time {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+.like {
+    color: #626264;
+}
+.dislike,
+.time {
+    color: #878787;
+}
+.likeIcon,
+.dislikeIcon {
+    margin-right: 4px;
+}
+.timeIcon {
+    margin-right: 7px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
