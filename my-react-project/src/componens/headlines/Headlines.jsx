@@ -3,8 +3,9 @@ import s from "./Headlines.module.css";
 import image1 from "./../../assets/images/image 1.jpg";
 import iconLike from "./../../assets/images/icon-like.svg";
 import iconDislike from "./../../assets/images/icon-dislike.svg";
-import iconClock from "./../../assets/images/icon-clock.png";
+
 import Label from "../label/Label";
+import Time from "../time/Time";
 
 
 function Headlines(props) {
@@ -25,10 +26,7 @@ function Headlines(props) {
           </div>
           <div className={s.wrapper}>
             <Label labelText={props.labelText}/>
-            <div className={s.time}>
-              <img className={s.timeIcon} src={iconClock} alt="Icon clock"/>
-              <span className={s.timeText}>2:00 pm</span>
-            </div>
+            <Time/>
           </div>
         </div>
           

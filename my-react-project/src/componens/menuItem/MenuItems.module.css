@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+.img{
+    width: 24px;
+    height: 24px;
+    color:#503E9D;
+    margin-right: 12px;
+}
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 10px;
+}
+.options{
+    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.arrowTop,
+.arrowBot{
+    border:none;
+    padding:0;
+    
+}
+/* .iconTop,
+.iconBot{
+   
+} */

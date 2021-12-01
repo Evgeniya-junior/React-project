@@ -7,6 +7,7 @@
 }
 .info {
     margin-left: 24px;
+    flex-grow: 1;
 }
 .title {
     font-weight: bold;
@@ -20,8 +21,7 @@
     margin-bottom: 14px;
 }
 .like,
-.dislike,
-.time {
+.dislike {
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
@@ -31,17 +31,14 @@
 .like {
     color: #626264;
 }
-.dislike,
-.time {
+.dislike {
     color: #878787;
 }
 .likeIcon,
 .dislikeIcon {
     margin-right: 4px;
 }
-.timeIcon {
-    margin-right: 7px;
-}
+
 .wrapper {
     display: flex;
     justify-content: space-between;
