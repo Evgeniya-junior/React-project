@@ -1,0 +1,37 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom: 32px;
+}
+.titleText{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #182135;
+}
+.titleLink{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #503E9D;
+    padding-right: 20px;
+    position: relative;
+}
+.titleLink::before{
+    content:"";
+    width: 8px;
+    height: 12px;
+    display: inline-block;
+    background-image: url("../../assets/images/arroy-right.png");
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.link{
+    text-decoration: none;
+}

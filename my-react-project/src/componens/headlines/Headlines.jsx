@@ -6,14 +6,14 @@ import iconDislike from "./../../assets/images/icon-dislike.svg";
 
 import Label from "../label/Label";
 import Time from "../time/Time";
-
+import Subtitle from "../subtitle/Subtitle";
 
 function Headlines(props) {
     return (
       <article class={s.headlines}>
         <img className={s.thumbnail} src={props.thumbnail} alt="Photo news"  />
         <div className={s.info}>
-          <h1 className={s.title}>{props.title}</h1>
+          <Subtitle className={s.subtitle} title={props.title}/>
           <div className={s.rating}>
             <div className={s.like}>
               <img className={s.likeIcon} src={iconLike} alt="Icon like" />

@@ -1,6 +1,7 @@
 .App {
   background: #F2F2F2;
   height: 100vh;
+  width: 1440px;
   display: grid;
   grid-template-rows: auto 1fr;
   grid-template-columns: 304px 1fr;
@@ -68,10 +69,21 @@
 }
 .main{
   grid-area: m;
-  padding:32px 32px 20px;
+  padding: 40px 32px 20px;
+}
+.explore-channels{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 32px;
+    margin-bottom: 38px;
 }
 .block-content{
   display: grid;
   grid-template-columns: repeat(3,336px);
+  grid-gap: 32px;
+}
+.news-content{
+  display: grid;
+  grid-template-columns:repeat(3,336px);
   grid-gap: 32px;
 }

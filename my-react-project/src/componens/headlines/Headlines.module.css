@@ -1,6 +1,7 @@
 .headlines {
     display: flex;
     align-items: center;
+    margin-bottom: 38px;
 }
 .thumbnail {
     border-radius: 12px;
@@ -9,11 +10,9 @@
     margin-left: 24px;
     flex-grow: 1;
 }
-.title {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 150%;
-    margin: 3px 0 10px;
+.subtitle{
+    display: flex;
+    align-items: center;
 }
 .rating {
     display: grid;
